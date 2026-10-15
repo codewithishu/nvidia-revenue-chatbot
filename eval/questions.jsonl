@@ -1,0 +1,12 @@
+# SMOKE-TEST SET (not the private golden set). Expectations reflect NVIDIA's publicly reported figures;
+# verify them against the PDFs you ingested and extend this file with your own questions.
+{"id":"rev_fy2024","question":"What was NVIDIA's total revenue in fiscal 2024?","expect_years":[2024],"expect_doc_type":"annual_report","retrieval_keywords":["60,922"],"answer_regex":["60[.,]9"]}
+{"id":"rev_fy2023","question":"What was NVIDIA's total revenue for fiscal year 2023?","expect_years":[2023],"expect_doc_type":"annual_report","retrieval_keywords":["26,974"],"answer_regex":["26[.,]9"]}
+{"id":"rev_fy2025","question":"What was NVIDIA's revenue in fiscal 2025?","expect_years":[2025],"expect_doc_type":"annual_report","retrieval_keywords":["130,497"],"answer_regex":["130[.,]\\d"]}
+{"id":"datacenter_compare","question":"Compare NVIDIA's Data Center revenue in fiscal 2023 and fiscal 2024.","expect_years":[2023,2024],"retrieval_keywords":["data center"],"answer_regex":["15[.,]0","47[.,]5"]}
+{"id":"ceo","question":"Who is NVIDIA's president and chief executive officer?","retrieval_keywords":["jensen huang"],"answer_regex":["Jensen Huang"]}
+{"id":"proxy_payratio","question":"What CEO pay ratio is disclosed in the 2024 proxy statement?","expect_years":[2024],"expect_doc_type":"proxy","retrieval_keywords":["pay ratio"]}
+{"id":"abstain_future","question":"What was NVIDIA's revenue in fiscal 2031?","abstain":true}
+{"id":"abstain_trivia","question":"What is Jensen Huang's favorite food according to the annual reports?","abstain":true}
+{"id":"abstain_other_company","question":"What was AMD's total revenue in fiscal 2023?","abstain":true}
+{"id":"abstain_forecast","question":"What will NVIDIA's stock price be next year?","abstain":true}

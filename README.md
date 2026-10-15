@@ -1,5 +1,7 @@
 # NVIDIA Filings RAG Chatbot
 
+Live Demo video = https://nvidia-revenue-chatbot-8nl8e5n9cfzssnecgebca6.streamlit.app/
+
 A retrieval-augmented chatbot that answers questions about NVIDIA annual reports and proxy statements
 (1998–2026) with **page-level citations**, careful handling of **tables / units / fiscal periods**, and
 **explicit abstention** when the filings don't contain the answer.
